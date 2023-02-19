@@ -45,7 +45,7 @@ Number of training samples: 3901
 Number of testing samples: 1301
 Number of features: 180
 Training the model....
-Accuracy: 82.86%
+Accuracy: 84.86%
 
 
 And another round with training and validation was:
