@@ -59,4 +59,4 @@ The model accumulated many features mapped to different emotions using the train
 ### Testing and demo
 After achieving high accuracy, it was time for a test. Using PyAudio and Pickle, I implemented a microphone input feature to test the model in real-time. With some helper functions, `is_silent`, `normalize`, `trim`, and `add_silence`, I was trying to enhance the quality of the given microphone record to be all called in `record()`. When it’s called, a microphone access dialog shows up to grant access, and then the user sees “Please speak after 1 sec,” and it can automatically detect silence to close the microphone. Then it saves the recorded audio to a `test.wav` file. Then it calls the model to predict the emotion in that file. Here’s the result
 
-(https://github.com/AdhamKhalifa/Speech-Sentiment-Analysis/blob/main/screenshot_project.png?raw=true)
+![output](https://github.com/AdhamKhalifa/Speech-Sentiment-Analysis/blob/main/screenshot_project.png?raw=true)
